@@ -7,7 +7,33 @@
 </head>
 <body>
     <script>
-        let Weekday=prompt("Weekday likho ")
+        // Question 6
+        let Weekday=prompt("Weekday likho or schedule check karo").toLowerCase().trim();
+        switch(Weekday){
+            case "monday":
+                document.write("Monday: tadi class he aj web development di");
+                break;
+                case "tuesday":
+                    document.write("Tuesday: Aaj chill mar lekin assignment submit kerna na bhuleen");
+                    break;
+                    case "wednesday":
+                    document.write("Wednesday: Aj tadi hafte di duji class he web development di");
+                    break;
+                    case "thursday":
+                    document.write("Thursday: duji wari chill mar lekin assignment submit kerna na bhuleen");
+                    break;
+                    case "friday":
+                    document.write("Friday: Jumma Mubarak! aj naha laen");
+                    break;
+                    case "saturday":
+                    document.write("Saturday: Aaj chill mar lekin assignment submit kerna na bhuleen");
+                    break;
+                    case "sunday":
+                    document.write("Sunday: Aaj chill mar lekin assignment submit kerna na bhuleen");
+                    break;
+                    default:
+                        document.write("tuse galat likhya he")
+        }
     </script>
     
 </body>
