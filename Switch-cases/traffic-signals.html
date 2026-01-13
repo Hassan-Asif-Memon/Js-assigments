@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Signals</title>
+</head>
+
+<body>
+    <script>
+        let traffic = prompt("Traffic light likho or jano ab kia kerna he 🚦").toLowerCase();
+        switch (traffic) {
+            case "green":
+                document.write("🟢Green Light: Ap ja sakte ho");
+                break;
+            case "yellow":
+                document.write("🟡Yellow Light: Tayari pakar chachu");
+                break;
+            case "red":
+                document.write("🔴Red Light: Ruk jao aage khatra he!");
+                break;
+            default:
+                document.write("Tusi galat colour dita he");
+        }
+    </script>
+
+</body>
+
+</html>
